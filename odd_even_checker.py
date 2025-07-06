@@ -1,0 +1,1 @@
+## Takes a number and tells if it's odd or even.

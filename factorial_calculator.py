@@ -1,0 +1,1 @@
+#Calculates factorial of a number using loop
