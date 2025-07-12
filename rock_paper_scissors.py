@@ -11,6 +11,8 @@ sys_choice = random.choice(['rock','paper','sissors'])
 if user_choice not in  ['rock','paper','sissors']:
     print("Please choose from the given options .Make sure to type the correct spelling")
 else:
+    print('I chose - '+sys_choice)
+    print ('You chose - '+user_choice)
     if sys_choice == 'rock' and user_choice == 'paper' :
       print("congratulations , you win ")
 
