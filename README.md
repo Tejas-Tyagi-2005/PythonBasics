@@ -1,2 +1,2 @@
-# pythonDSA
-Practice questions in DSA and Basics
+# PythonBasics
+Basic programs implemented using python 
