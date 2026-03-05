@@ -1,6 +1,6 @@
 
 
-arr = list(map(int,input("enter the fucking array : ").split()))
+arr = list(map(int,input("Enter the  array :  ").split()))
 
 for i in range(1 , len(arr)): # traverse from first element of unsorted array to the end 
     key = arr[i] # value of key changes in each iteration and stays at the index no i , initially it is index = 1 in the first itertion 
@@ -13,6 +13,8 @@ for i in range(1 , len(arr)): # traverse from first element of unsorted array to
 
     arr[j+1] = key # set the value of key to the arr[j+1]      
 
-print("here is ur fucking array ")
+print("\nbelow is your sorted array  \n") # add \n anywhere to add a blank line 
+
+
 
 print(arr)
