@@ -1,6 +1,6 @@
 
 
-arr = list(map(int,input("Enter the  array :  ").split()))
+arr = list(map(int,input("Enter the  array :  ").split())) # split seperates the elements based on space  , int converts each element to a integer and 
 
 for i in range(1 , len(arr)): # traverse from first element of unsorted array to the end 
     key = arr[i] # value of key changes in each iteration and stays at the index no i , initially it is index = 1 in the first itertion 
